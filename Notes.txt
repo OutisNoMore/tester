@@ -1,10 +1,6 @@
     iget-object p1, p0, Lcom/gomcorp/gomrecorder/RecordActivity;->R:Lcom/gomcorp/gomrecorder/RecordService$e;
 
-    if-eqz p1, :cond_c
-
-    invoke-virtual {p1}, Lcom/gomcorp/gomrecorder/RecordService$e;->a()Lcom/gomcorp/gomrecorder/RecordService;
-
-    
+    if-eqz p1, :cond_c    
 
     invoke-virtual {p1}, Lcom/gomcorp/gomrecorder/RecordService;->J()Z
 
