@@ -4,7 +4,7 @@
 
     invoke-virtual {p1}, Lcom/gomcorp/gomrecorder/RecordService$e;->a()Lcom/gomcorp/gomrecorder/RecordService;
 
-    move-result-object p1
+    
 
     invoke-virtual {p1}, Lcom/gomcorp/gomrecorder/RecordService;->J()Z
 
